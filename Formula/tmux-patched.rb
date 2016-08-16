@@ -17,7 +17,7 @@ class TmuxPatched < Formula
 
     depends_on :autoconf
     depends_on :automake
-    depends_on 'libtool;
+    depends_on 'libtool'
   end
 
   depends_on 'pkg-config' => :build
